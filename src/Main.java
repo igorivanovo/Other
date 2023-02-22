@@ -52,7 +52,7 @@ public class Main {
                     }
                 }
                 if (isOnSale) {
-                    if (counts[i] > 3) {
+                    if (counts[i] > 2) {
                         System.out.println("\t" + products[i] + " " + counts[i] + " шт. за " + (prices[i] * (counts[i] / 3 * 2 + counts[i] % 3)) + " руб." + "  распродажа");
                         sum += prices[i] * (counts[i] / 3 * 2 + counts[i] % 3);
 
